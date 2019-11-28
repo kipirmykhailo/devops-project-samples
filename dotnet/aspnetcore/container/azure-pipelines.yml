@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'ab623877-7cc4-46b1-8d35-a7a7a3d54750'
   imageRepository: 'dotnetaspnetcorecontainer'
   containerRegistry: 'itsregistery.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/dotnet/aspnetcore/container/Application/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/dotnet/aspnetcore/container/Application/aspnet-core-dotnet-core/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
