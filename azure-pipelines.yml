@@ -9,13 +9,13 @@ trigger:
       - master
   paths:
     include:
-      - dotnet/aspnet46/functionApp/*
+      - html/webapp/*
 
 pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'dotnet/aspnet46/functionApp/Application/*.sln'
+  solution: 'html/webapp/Application/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
